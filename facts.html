@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	<title>AI Games</title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+	<div id="container">
+		<div id="banner">
+			<img src="images/banner.png" alt="AlphaGo_banner" class="center">
+		</div>
+		<div id="navigationFacts">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="challenges.html">Challenges</a></li>
+				<li><a href="facts.html">How does AlphaGo work</a></li>
+				<li><a href="emerging.html">Emerging technologies</a></li>
+				<li><a href="ethics.html">Ethical considerations</a></li>
+				<li><a href="bibliography.html">Bibliography</a></li>
+			</ul>
+		</div>
+		<div id="leftColumnFacts">
+			<h1>How does AlphaGo work?</h1>
+			<p>In order to crack Go, AI needs the ability of strategical thinking and the ability to learn things instead of just searching through a large database for answer like what the chess AI did. Therefore AlphaGo combines search tree with deep neural networks. The way neural networks work is by mimicking the way that biological neurons signal to one another just like how human brain functions. A neural network contains an input layer, multiple hidden layers, and an output layer. In this case, a description of the Go board is the input. Then the multiple hidden layers process the input and do the decision-making. Finally the output layer selects the next move. AlphaGo has two neural networks, one is the “policy network”, which selects the next move to make. The other one is the “value network”, which predicts the winner of the game.</p>
+			<p>The neural network needs to be trained by processing examples. The earliest version of AlphaGo was introduced to numerous amateur games to learn from these games and develop a basic understanding of human plays.</p>
+			<p>Simply by playing against human players and learn from human players’ moves, AI is never going to surpass human. Hence AlphaGo uses the method of reinforcement learning, requiring a machine to learn and play the game entirely by itself by solving tasks in dynamic, changing environments. Through employing reinforcement learning, the system improves itself by avoiding errors and improving its win rate against older version of itself. This process is repeated thousands of times, then a completely new and more powerful version of AlphaGo is produced.</p>
+			<p>The latest version AlphaGo Zero learnt by playing against itself from the beginning, so it will not be restrained to human knowledge. The performance of AlphaGo Zero surpassed all the previous versions, and it discovered unconventional strategies and moves.</p>
+			<p>AlphaGo was a huge success. However, if you ask AlphaGo to play poker, it will not do well because these two games are fundamentally different. So AlphaGo is only a narrow AI, and a general AI cannot be achieved at this stage yet.</p>
+		</div>
+		<div id="rightColumnFacts">
+			<img src="images/neural_network.png" alt="neural_network_diagram" class="fit">
+			<h2>Diagram for neural network</h2>
+			<br><br><br>
+			<img src="images/funny_meme.jfif" alt="AlphaGo_meme" class="fit">
+			<h2>Comparison between AlphaGo and human</h2>
+		</div>
+		<div id="footer">
+			<h>Created by David Ding</h>
+		</div>
+	</div>
+</body>
+</html>

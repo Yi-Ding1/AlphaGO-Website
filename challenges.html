@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	<title>AI Games</title>
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+	<div id="container">
+		<div id="banner">
+			<img src="images/banner.png" alt="AlphaGo_banner" class="center">
+		</div>
+		<div id="navigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="challenges.html">Challenges</a></li>
+				<li><a href="facts.html">How does AlphaGo work</a></li>
+				<li><a href="emerging.html">Emerging technologies</a></li>
+				<li><a href="ethics.html">Ethical considerations</a></li>
+				<li><a href="bibliography.html">Bibliography</a></li>
+			</ul>
+		</div>
+		<div id="leftColumn">
+			<h1>What are the challenges?</h1>
+			<p>In 1997, IBM’s Deep Blue became the first machine to crack chess. Deep Blue relies on brute force computer power and evaluation function, which estimates the value of a certain move in a search tree. A search tree analyses the branching possibilities far into the future and selects the most favorable move. The way its processors analyze millions of moves is by searching through the opening book of over 4,000 positions and 700,000 grandmaster games using the Alpha-beta search algorithm. If at least one branching possibility of a move is worse than the previously examined best move, the Alpha-beta search algorithm will stop examining the other branching possibilities of this move to speed up the process.</p>
+			<p>AlphaGo also relies on brute force computer power (1920 CPUs and 280 GPUs used in the match against Lee Sedol, according to The Economist) and evaluation function, but that is not enough to crack Go. There are 10 to the power of 170 possible board configurations in Go, which is a googol (10 to the power of 100) times more complex than chess. Brute force computer power and evaluation function cannot handle this number of possible Go moves.</p>
+		</div>
+		<div id="rightColumn">
+			<img src="images/search_tree.png" alt="search_tree" class="fit">
+			<h2>Diagram of search tree for Go</h2>
+		</div>
+		<div id="footer">
+			<h>Created by David Ding</h>
+		</div>
+	</div>
+</body>
+</html>
